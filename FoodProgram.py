@@ -13,6 +13,7 @@ customer1 = fc.Customer("570", "Danni Sellyar", "97 Mitchell Way Hewitt Texas 76
 customer2 = fc.Customer("569", "Aubree Himsworth", "1172 Moulton Hill Waco Texas 76710", "ahimsworthfs@list-manage.com", "254-555-2273", True)
 
 
+
 #transaction1 = fc.Transaction(dict['trans1'][0], dict['trans1'][1], dict['trans1'][2], dict['trans1'][3])
 #transaction2 = fc.Transaction(dict['trans2'][0], dict['trans2'][1], dict['trans2'][2], dict['trans2'][3])
 #transaction3 = fc.Transaction(dict['trans3'][0], dict['trans3'][1], dict['trans3'][2], dict['trans3'][3])
