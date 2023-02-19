@@ -34,13 +34,13 @@ for customer in [customer1, customer2]:
     for transaction in transaction_instance:
         if int(transaction.get_customerid()) == int(customer.get_customerid()):
             order_total += transaction.get_cost()
-            print("Order Item:" , transaction.get_itemname() , "Price =" , transaction.get_cost())
+            print("Order Item:" , transaction.get_itemname() , "Price : $" , transaction.get_cost())
             
 
     if customer.is_member():
         discount = order_total * 0.2
-        print("Total Cost:", order_total)
-        print("Member Discount: ", discount)
-        print("Total Cost after discount:", order_total - discount)
+        print("Total Cost: $", order_total)
+        print("Member Discount: $", discount)
+        print("Total Cost after discount: $", order_total - discount)
     else:
-        print("Total Cost:", order_total)
+        print("Total Cost: $", order_total)
